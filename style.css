@@ -1,0 +1,713 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;1,9..144,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&display=swap');
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1440px;
+    margin: auto;
+}
+
+header {
+    background-image: url(./images/bg-pattern-1.svg), url(./images/bg-pattern-2.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: -8% 32%, 104% 83%;
+    background-color: #24053E;
+    height: 600px;
+    position: relative;
+    color: white;
+    z-index:1;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-family: "Fraunces", serif;
+
+}
+
+li {
+    list-style: none;
+}
+
+.wave {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    margin-top: -1rem;
+}
+
+.wave svg {
+    position: relative;
+    display: block;
+    width: calc(283% + 1.3px);
+    height: 132px;
+}
+
+.wave .shape-fill {
+    fill: #24053E;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 3rem;
+}
+
+.nav-bar a {
+    color: white;
+    font-size: 18px;
+}
+
+.nav-bar a:hover {
+    color: #44FFA1;
+}
+
+.green-underline {
+    width: 100%;
+    min-height: 3px;
+    margin-top: 3px;
+    background-color: #44FFA1;
+}
+
+.header-text {
+    margin-top: 5rem;
+
+}
+
+.header-text h1 {
+    text-align: center;
+    font-size: 80px;
+    width: 45%;
+    margin: 0 auto;
+    line-height: 1;
+    font-weight: 300;
+}
+
+.text-underline {
+    text-decoration: underline;
+    text-decoration-color: #44FFA1;
+}
+
+.header-button {
+    cursor: pointer;
+    display: block;
+    margin: 3rem auto;
+    background-color: #44FFA1;
+    color: #24053E;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    height: 60px;
+    width: 160px;
+    transition: all .2s ease-in;
+}
+
+.header-button:hover {
+    background-color: #24053E;
+    color: #44FFA1;
+    border: 1px solid #44FFA1;
+}
+
+.phone-img {
+    display: block;
+    width: 700px;
+    position: absolute;
+    top: 80%;
+    left: 30%;
+    z-index: 5;
+
+}
+#features{
+        background-color: #FCF8FF;
+        height: 100%;
+        position: relative;
+        margin-top: 1rems;
+}
+.features-fill{
+ fill:#FCF8FF;
+}
+.feature{
+    text-align: center;
+    padding: 0 3rem;
+}
+.flex-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   padding-top: 25rem;
+   padding-bottom: 8rem;
+}
+.feature-number{
+   width: 56px;
+   height: 56px;
+   border: 1px solid #24053E;
+   border-radius: 50%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: 0rem auto 4rem auto;
+}
+.feature-number p{
+    color:#584D62;
+}
+.feature h2{
+    font-size: 32px;
+    margin-bottom: 1.50rem;
+    font-family: "Fraunces", serif;
+    color:#24053E;
+}
+.p1{
+    font-family: "Manrope", sans-serif;
+    color:#584D62;
+    font-size: 17px;
+}
+#founder{
+    margin-top: 25rem;
+    margin-bottom: 8rem;
+}
+.founder-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.founder-img{
+  width:477px;
+  height:477px;
+  margin-top: -20rem;
+  margin-right: -7rem;
+}
+.card{
+    background-color: #24053E;
+    color: white;
+    width: 730px;
+    height: 413px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.card-content{
+    padding: 0rem 4rem;    
+}
+.card-content h2{
+    font-size: 56px;
+    font-family: "Fraunces", serif;
+    margin-top: -2rem;
+}
+.card-content p{
+    margin-bottom: 2rem;
+    font-family: "Manrope", sans-serif;
+    color:white;
+    font-size: 17.50px;
+
+}
+.btn{
+    cursor: pointer;
+    display: block;
+    background-color: #44FFA1;
+    color: #24053E;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    height: 60px;
+    width: 190px;
+    transition: all .2s ease-in;
+}
+.btn:hover{
+    background-color: #24053E;
+    color: #44FFA1;
+    border: 1px solid #44FFA1;
+}
+.circle{
+    position: absolute;
+    top:70%;
+    left:63%;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 6rem;
+}
+.logo{
+  margin-bottom: 4rem;
+}
+.footer-icons img{
+    cursor: pointer;
+
+}
+.twitter-icon {
+    padding: 0 1.5rem;
+
+}
+@media screen and (max-width:1368px){
+    .hero-img{
+        left:24%;
+    }
+}
+
+
+
+
+@media screen and (max-width:1024px) {
+    .wave {
+        margin-top: -2px;
+    }
+
+    .phone-img {
+        left: 15%;
+        top: 80%;
+    }
+
+    header {
+        height: 530px;
+        background-position: -32% 32%, 110% 83%;
+    }
+
+    .header-text h1 {
+        width: 55%;
+    }
+    .feature{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: left;
+        padding: 0rem;
+        margin: 2rem auto;
+        width: 70%;
+    }
+    .flex-container{
+       display: block;
+       padding-top: 25rem;
+       padding-bottom: 8rem;
+    }
+    .feature-number{
+       width: 100px;
+       height: 56px;
+       border: 1px solid #24053E;
+       border-radius: 50%; 
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       margin-right: 3rem ;
+       margin-top: 3rem;
+    }
+    .feature h2{
+        font-size: 32px;
+        margin-bottom: 1rem;
+        font-family: "Fraunces", serif;
+        color:#24053E;
+    }
+    .circle{
+        top:79%;
+    }
+    .card{
+        width:730px;
+        height:480px;
+    }
+
+    .btn{
+        cursor: pointer;
+        display: block;
+        background-color: #44FFA1;
+        color: #24053E;
+        font-size: 18px;
+        font-weight: bold;
+        border: none;
+        height: 60px;
+        width: 190px;
+        transition: all .2s ease-in;
+    }
+    .btn:hover{
+        background-color: #24053E;
+        color: #44FFA1;
+        border: 1px solid #44FFA1;
+    }
+}
+
+@media screen and (max-width:1180px) {
+    .phone-img {
+        left: 22%;
+    }
+}
+
+@media screen and (max-width:1280px) {
+    .phone-img {
+        left: 22%;
+    }
+
+    header {
+        background-position: -24% 32%, 108% 83%;
+    }
+
+    .wave {
+        margin-top: -2px;
+    }
+}
+
+@media screen and (max-width:915px) {
+    .phone-img {
+        left: 18%;
+        top: 99%;
+        width: 600px;
+    }
+
+    .wave {
+        margin-top: -2px;
+    }
+
+    header {
+        height: 550px;
+        background-position: -32% 32%, 110% 83%;
+    }
+
+    .header-text h1 {
+        width: 65%;
+
+    }
+       .card-content h2{
+        font-size: 48px;
+        font-family: "Fraunces", serif;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .header-text h1 {
+        width: 70%;
+    }
+
+    header {
+        height: 480px;
+        background-position: -53% 32%, 116% 83%;
+    }
+    .phone-img {
+        left: 45%;
+        top: 99%;
+        width: 600px;
+    }
+    .feature-number{
+        width: 100px;
+        height: 55px;
+    }
+    
+}
+@media screen and (max-width:767px){
+    .feature{
+        display: block;
+        padding: 0rem;
+        text-align: center;
+    }
+    .flex-container{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       flex-direction: column;
+       padding-top: 25rem;
+       padding-bottom: 3rem;
+    }
+    .feature-number{
+       width: 60px;
+       height: 56px;
+       border: 1px solid #24053E;
+       border-radius: 50%; 
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       margin: 0rem auto 2rem auto;
+       
+    }
+    .feature h2{
+        font-size: 28px;
+        margin-bottom: 1rem;
+        font-family: "Fraunces", serif;
+        
+    }
+    p{
+        font-size: 16px;
+    }
+    #founder{
+        margin-top: 25rem;
+        margin-bottom: 8rem;
+    }
+    .founder-flex{
+        flex-direction: column;
+    
+    }
+    .founder-img{
+      width:100%;
+      height:auto;
+      margin-top: -10rem;
+      margin-right: 0rem;
+    }
+    .card{
+        width: 100%;
+        height: 400px;
+        display: block;
+        text-align: center;
+        margin-top: -6rem;
+    }
+    .card-content{
+        padding: 0rem 2rem;    
+    }
+    .card-content h2{
+        font-size: 48px;
+        font-family: "Fraunces", serif;
+        padding-top: 4rem;
+    }
+    .card-content p{
+        margin-bottom: 2rem;
+        font-family: "Manrope", sans-serif;
+        font-size: 17.50px;
+         
+    }
+    .btn{
+        cursor: pointer;
+        margin: 0 auto;
+    }
+    .btn:hover{
+        background-color: #24053E;
+        color: #44FFA1;
+        border: 1px solid #44FFA1;
+    }
+    .circle{
+        display: none;
+    }
+
+}
+@media screen and (max-width:860px){
+    .header-text h1{
+        width: 50%;
+    }
+
+.card{
+    width: 100%;
+}
+.card-content{
+    padding: 0rem 2rem;    
+}
+.circle{
+    top:76%;
+    left:53%;
+}
+}
+@media screen and (max-width:820px) {
+    .phone-img {
+        width: 500px;
+        left:20%;
+        top:95%;
+    }
+
+    .header-text h1 {
+       width:70%;
+       font-size:60px;
+    }
+    .feature-number{
+        width: 100px;
+        height: 50px;
+    }
+    .card{
+        width: 100%;
+        height: 430px;
+    }
+    .card-content{
+        padding: 0rem 2rem;    
+    }
+    .card-content h2{
+        font-size: 48px;
+        font-family: "Fraunces", serif;
+        margin-top: -2rem;
+    }
+    .circle{
+       display: none;
+    }
+}
+@media screen and (max-width:760px) {
+    .feature-number{
+        width: 50px;
+        height: 50px;
+    }
+}
+@media screen and (max-width:630px) {
+    .phone-img {
+        width: 400px;
+        left:20%;
+        top:98%;
+    }
+
+    .header-text h1 {
+       width:70%;
+       font-size:60px;
+    }
+    .feature-number{
+        width: 50px;
+        height: 50px;
+    }
+    header {
+        height: 480px;
+        background-position: -75% 50%, 115% 73%;
+    }
+}
+@media screen and (max-width:560px) {
+    .phone-img {
+        left: 16%;
+        top: 100%;
+        width: 400px;
+    }
+
+    header {
+        background-image: none;
+    }
+
+    .header-text h1 {
+        width: 99%;
+    }
+}
+@media screen and (max-width:510px){
+    .feature-number{
+        width: 50px;
+        height: 56px;
+    }
+    .card{
+        height:440px;
+    }
+    
+}
+@media screen and (max-width:475px) {
+    .phone-img {
+        width: 300px;
+    }
+
+    .header-text h1 {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .phone-img {
+        width: 300px;
+    }
+
+    .header-text h1 {
+        width: 100%;
+        font-size: 55px;
+    }
+
+    .nav-bar {
+        margin-left: -2.50rem;
+    }
+    .flex-container{
+        padding-top: 15rem;
+     }
+     .feature-number{
+        width: 50px;
+        height: 56px;
+    }
+    .card{
+      height:450px;
+    }
+    
+}
+
+@media screen and (max-width:395px) {
+    .header-text h1 {
+        font-size: 45px;
+    }
+  
+    .card{
+        height: 500px;
+    }
+    .card-content{
+        padding: 0rem 2rem;    
+    }
+    .card-content h2{
+        font-size: 42px;
+        font-family: "Fraunces", serif;
+        padding-top: 4rem;
+    }
+
+}
+
+@media screen and (max-width:350px) {
+    .phone-img {
+        width: 270px;
+        left: 10%;
+        top: 100%
+    }
+    
+}
+
+@media screen and (max-width:360px) {
+    .phone-img {
+        width: 270px;
+        left: 10%;
+        top: 100%
+    }
+    .feature-number{
+        width: 40px;
+        height: 50px;
+    }
+    .header-text h1 {
+        font-size: 42px;
+    }
+    .card-content h2{
+        font-size: 40px;
+        font-family: "Fraunces", serif;
+        padding-top: 4rem;
+    }
+
+}
+
+@media screen and (max-width:320px) {
+    .header-text h1 {
+        font-size: 40px;
+    }
+    .card{
+        height: 480px;
+        margin-top:-4rem;
+    }
+    .card-content{
+        padding: 0rem 1rem;    
+    }
+    .card-content h2{
+        font-size: 40px;
+        font-family: "Fraunces", serif;
+        padding-top: 4rem;
+    }
+}
+
+@media screen and (max-width:285px) {
+    .phone-img {
+        width: 100px;
+        right: 20%;
+    }
+    .card{
+        height:550px;
+      }
+    }
+@media screen and (max-width:285px) {
+        .phone-img {
+            width: 80%;
+            right: 20%;
+        }
+        .card{
+            height:550px;
+          }
+
+}
